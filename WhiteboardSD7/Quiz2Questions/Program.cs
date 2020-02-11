@@ -7,7 +7,7 @@ namespace Quiz2Questions
         static void Main(string[] args)
         {
             Console.WriteLine("Quiz2.Program.Main()");
-            Console.WriteLine(Question1());
+            Console.WriteLine($"Question 1: {Question1()}");
             Console.WriteLine(Question2());
             Console.WriteLine(Question3());
             Console.WriteLine(Question4());
