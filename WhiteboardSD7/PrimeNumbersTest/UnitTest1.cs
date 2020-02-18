@@ -11,5 +11,7 @@ namespace IsPrimeCheckSpace
         {
             Assert.IsTrue(IsPrimeCheck.IsPrime(2));
         }
+
+        
     }
 }
