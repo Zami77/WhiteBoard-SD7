@@ -11,6 +11,11 @@ namespace IsPrimeCheckSpace
         {
             Assert.IsTrue(IsPrimeCheck.IsPrime(2));
         }
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Assert.AreEqual(IsPrimeCheck.AddPrimes(2), 5);
+        }
 
         
     }
